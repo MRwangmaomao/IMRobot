@@ -1,0 +1,9 @@
+<!--
+  Used for visualising rplidar in action.
+
+  It requires rplidar.launch.
+ -->
+<launch>
+  <include file="$(find thurobot)/launch/lidar/$(env RIKILIDAR).launch" />
+  <include file="$(find rplidar_ros)/launch/hectormapping.launch" />
+</launch>

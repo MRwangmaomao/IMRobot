@@ -1,0 +1,11 @@
+<launch>
+  <include file="$(find thurobot)/launch/lidar/$(env RIKILIDAR).launch" />
+
+  <arg name="map_file" default="$(find thurobot)/maps/house.yaml"/>
+  <node pkg="map_server" name="map_server"  type="map_server" args="$(arg map_file)" />
+
+  <include file="$(find thurobot)/launch/amcl.launch" />
+  <include file="$(find thurobot)/param/navigation/move_base.xml" />
+  <node name="robot_pose_publisher" pkg="robot_pose_publisher" type="robot_pose_publisher" />
+  <node name="multi_mark" pkg="thurobot" type="show_mark.py" output="screen" />
+</launch>

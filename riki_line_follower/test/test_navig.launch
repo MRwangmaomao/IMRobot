@@ -1,0 +1,5 @@
+<launch>
+
+<test test-name="test_velocity"  pkg="riki_line_follower"  type="test_velocity"  cwd="node"/>
+
+</launch>

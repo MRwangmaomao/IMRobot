@@ -1,0 +1,11 @@
+<launch>
+
+<!-- Detection node -->
+<node pkg="riki_line_follower" name="detection" type="detect" cwd="node" output="screen">
+</node>
+
+<!-- Robot commands node -->
+<node pkg="riki_line_follower" name="Velocity" type="navig" cwd="node" output="screen">
+</node>
+
+</launch>

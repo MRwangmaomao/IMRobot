@@ -1,0 +1,6 @@
+<launch>
+ <include file="$(find thurobot)/launch/lidar/$(env RIKILIDAR).launch" />
+  <include file="$(find thurobot)/param/navigation/slam_gmapping.xml" />
+  <include file="$(find thurobot)/param/navigation/move_base.xml" />
+  <include file="$(find frontier_exploration)/launch/global_map.launch" />
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop">
+      <param name="speed" type="double" value="0.3"/>
+      <param name="turn" type="double" value="0.5" />
+      <remap from="cmd_vel" to="key_teleop/cmd_vel"/>
+  </node>
+</launch>

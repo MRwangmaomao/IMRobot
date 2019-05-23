@@ -1,0 +1,15 @@
+<launch>
+  <node name="ydlidar_node"  pkg="ydlidar"  type="ydlidar_node" output="screen">
+    <param name="port"         type="string" value="/dev/rikilidar"/>  
+    <param name="model"        type="string" value="X4"/>
+    <param name="frame_id"     type="string" value="laser_frame"/>
+    <param name="intensities"  type="bool"   value="false"/>
+    <param name="angle_min"    type="double" value="-180" />
+    <param name="angle_max"    type="double" value="180" />
+    <param name="range_min"    type="double" value="0.08" />
+    <param name="range_max"    type="double" value="16.0" />
+    <param name="ignore_array" type="string" value="" />
+  </node>
+  <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser4"
+    args="0.0 0.0 0.0 0.0 0.0  0.0 /base_link /laser_frame 40" />
+</launch>

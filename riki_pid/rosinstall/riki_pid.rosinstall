@@ -1,0 +1,4 @@
+- git:
+    local-name: riki_pid
+    uri: 'https://github.com/ykevin/riki_pid.git
+    version: indigo
