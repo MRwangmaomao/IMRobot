@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: opencv_apps
-Description: Description of opencv_apps
-Version: 2.0.0
-Cflags: -I/usr/local/include
-Libs: -L/usr/local/lib -lopencv_apps
-Requires: std_msgs

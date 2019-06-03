@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: find_object_2d
-Description: Description of find_object_2d
-Version: 0.6.2
-Cflags: -I/usr/local/include
-Libs: -L/usr/local/lib 
-Requires: cv_bridge roscpp rospy sensor_msgs std_msgs image_transport message_filters tf

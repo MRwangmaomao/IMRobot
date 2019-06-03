@@ -1,2 +1,0 @@
-set(riki_msgs_MESSAGE_FILES "/home/wpr/IM-robot/src/riki_msgs/msg/Velocities.msg;/home/wpr/IM-robot/src/riki_msgs/msg/PID.msg;/home/wpr/IM-robot/src/riki_msgs/msg/Imu.msg;/home/wpr/IM-robot/src/riki_msgs/msg/Battery.msg;/home/wpr/IM-robot/src/riki_msgs/msg/DHT22.msg;/home/wpr/IM-robot/src/riki_msgs/msg/Servo.msg;/home/wpr/IM-robot/src/riki_msgs/msg/Infrared.msg;/home/wpr/IM-robot/src/riki_msgs/msg/Ultrasonic.msg")
-set(riki_msgs_SERVICE_FILES "")

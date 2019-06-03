@@ -1,8 +1,0 @@
-prefix=/home/wpr/IM-robot/src/build/devel
-
-Name: find_object_2d
-Description: Description of find_object_2d
-Version: 0.6.2
-Cflags: -I/home/wpr/IM-robot/src/build/devel/include
-Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
-Requires: cv_bridge roscpp rospy sensor_msgs std_msgs image_transport message_filters tf

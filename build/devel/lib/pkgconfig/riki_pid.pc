@@ -1,8 +1,0 @@
-prefix=/home/wpr/IM-robot/src/build/devel
-
-Name: riki_pid
-Description: Description of riki_pid
-Version: 0.0.1
-Cflags: -I/home/wpr/IM-robot/src/build/devel/include
-Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
-Requires: dynamic_reconfigure message_runtime roscpp std_msgs
