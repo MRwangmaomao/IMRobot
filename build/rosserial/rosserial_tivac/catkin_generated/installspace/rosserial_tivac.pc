@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: rosserial_tivac
+Description: Description of rosserial_tivac
+Version: 0.7.7
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

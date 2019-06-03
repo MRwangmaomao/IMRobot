@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: imu_complementary_filter
+Description: Description of imu_complementary_filter
+Version: 1.0.15
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lcomplementary_filter
+Requires: message_filters roscpp sensor_msgs std_msgs tf

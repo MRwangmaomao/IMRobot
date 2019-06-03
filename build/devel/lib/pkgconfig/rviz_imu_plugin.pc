@@ -1,0 +1,8 @@
+prefix=/home/wpr/IM-robot/src/build/devel
+
+Name: rviz_imu_plugin
+Description: Description of rviz_imu_plugin
+Version: 1.0.15
+Cflags: 
+Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
+Requires: rviz

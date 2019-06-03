@@ -3,7 +3,7 @@
     <include file="$(find thurobot)/launch/navigation/gmapping_sim.launch"/>
 
     <!-- 运行move_base节点 -->
-    <include file="$(find thurobot)/launch/move_base.launch" />
+    <include file="$(find thurobot)/launch/navigation/move_base_sim.launch" />
 
     <!-- 运行rviz -->
     <node pkg="rviz" type="rviz" name="rviz" args="-d $(find thurobot)/rviz/nav_sim.rviz"/>

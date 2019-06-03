@@ -1,0 +1,8 @@
+prefix=/home/wpr/IM-robot/src/build/devel
+
+Name: imu_complementary_filter
+Description: Description of imu_complementary_filter
+Version: 1.0.15
+Cflags: -I/home/wpr/IM-robot/src/imu_tools/imu_complementary_filter/include
+Libs: -L/home/wpr/IM-robot/src/build/devel/lib -lcomplementary_filter
+Requires: message_filters roscpp sensor_msgs std_msgs tf

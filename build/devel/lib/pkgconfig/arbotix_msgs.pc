@@ -1,0 +1,8 @@
+prefix=/home/wpr/IM-robot/src/build/devel
+
+Name: arbotix_msgs
+Description: Description of arbotix_msgs
+Version: 0.10.0
+Cflags: -I/home/wpr/IM-robot/src/build/devel/include
+Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
+Requires: message_runtime std_msgs

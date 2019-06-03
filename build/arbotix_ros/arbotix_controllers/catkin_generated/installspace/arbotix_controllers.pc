@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: arbotix_controllers
+Description: Description of arbotix_controllers
+Version: 0.10.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

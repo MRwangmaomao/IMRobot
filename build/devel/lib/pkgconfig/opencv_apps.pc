@@ -1,0 +1,8 @@
+prefix=/home/wpr/IM-robot/src/build/devel
+
+Name: opencv_apps
+Description: Description of opencv_apps
+Version: 2.0.0
+Cflags: -I/home/wpr/IM-robot/src/build/devel/include -I/home/wpr/IM-robot/src/opencv_apps/include
+Libs: -L/home/wpr/IM-robot/src/build/devel/lib -lopencv_apps
+Requires: std_msgs
