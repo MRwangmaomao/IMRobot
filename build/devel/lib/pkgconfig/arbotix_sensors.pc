@@ -1,0 +1,8 @@
+prefix=/home/wpr/IM-robot/src/build/devel
+
+Name: arbotix_sensors
+Description: Description of arbotix_sensors
+Version: 0.10.0
+Cflags: 
+Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
+Requires: 

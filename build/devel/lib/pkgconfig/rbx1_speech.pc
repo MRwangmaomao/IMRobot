@@ -1,0 +1,8 @@
+prefix=/home/wpr/IM-robot/src/build/devel
+
+Name: rbx1_speech
+Description: Description of rbx1_speech
+Version: 0.4.0
+Cflags: 
+Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: rbx1_nav
+Description: Description of rbx1_nav
+Version: 0.4.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: dynamic_reconfigure

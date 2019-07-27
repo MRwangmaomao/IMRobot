@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: riki_pid
+Description: Description of riki_pid
+Version: 0.0.1
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: dynamic_reconfigure message_runtime roscpp std_msgs

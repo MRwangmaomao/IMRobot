@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.6.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/wpr/IM-robot/src/build/devel
+
+Name: rosserial_arduino
+Description: Description of rosserial_arduino
+Version: 0.7.7
+Cflags: -I/home/wpr/IM-robot/src/build/devel/include
+Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
+Requires: message_runtime

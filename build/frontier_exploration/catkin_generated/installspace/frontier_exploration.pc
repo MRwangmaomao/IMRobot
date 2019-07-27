@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: frontier_exploration
+Description: Description of frontier_exploration
+Version: 0.3.1
+Cflags: -I/usr/local/include -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include
+Libs: -L/usr/local/lib -lexplore_costmap /usr/lib/x86_64-linux-gnu/libpcl_common.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_iostreams.so /usr/lib/x86_64-linux-gnu/libboost_serialization.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libboost_regex.so /usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: costmap_2d dynamic_reconfigure geometry_msgs roscpp tf actionlib

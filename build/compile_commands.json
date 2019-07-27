@@ -1,0 +1,583 @@
+[
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/gmock/src/gmock_main.cc",
+  "file": "/usr/src/gmock/src/gmock_main.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -g -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o gtest/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROS_BUILD_SHARED_LIBS=1 -I../rosserial/rosserial_client/src -Idevel/include -I/opt/ros/kinetic/include  -g   -o rosserial/rosserial_client/CMakeFiles/float64_test.dir/test/float64_test.cpp.o -c /home/wpr/IM-robot/src/rosserial/rosserial_client/test/float64_test.cpp",
+  "file": "/home/wpr/IM-robot/src/rosserial/rosserial_client/test/float64_test.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROS_BUILD_SHARED_LIBS=1 -I../rosserial/rosserial_client/src -Idevel/include -I/opt/ros/kinetic/include  -g   -o rosserial/rosserial_client/CMakeFiles/subscriber_test.dir/test/subscriber_test.cpp.o -c /home/wpr/IM-robot/src/rosserial/rosserial_client/test/subscriber_test.cpp",
+  "file": "/home/wpr/IM-robot/src/rosserial/rosserial_client/test/subscriber_test.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROS_BUILD_SHARED_LIBS=1 -I../serial/include  -g   -o serial/CMakeFiles/serial_example.dir/examples/serial_example.cc.o -c /home/wpr/IM-robot/src/serial/examples/serial_example.cc",
+  "file": "/home/wpr/IM-robot/src/serial/examples/serial_example.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROS_BUILD_SHARED_LIBS=1 -Dserial_EXPORTS -I../serial/include  -g -fPIC   -o serial/CMakeFiles/serial.dir/src/serial.cc.o -c /home/wpr/IM-robot/src/serial/src/serial.cc",
+  "file": "/home/wpr/IM-robot/src/serial/src/serial.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROS_BUILD_SHARED_LIBS=1 -Dserial_EXPORTS -I../serial/include  -g -fPIC   -o serial/CMakeFiles/serial.dir/src/impl/unix.cc.o -c /home/wpr/IM-robot/src/serial/src/impl/unix.cc",
+  "file": "/home/wpr/IM-robot/src/serial/src/impl/unix.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROS_BUILD_SHARED_LIBS=1 -Dserial_EXPORTS -I../serial/include  -g -fPIC   -o serial/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o -c /home/wpr/IM-robot/src/serial/src/impl/list_ports/list_ports_linux.cc",
+  "file": "/home/wpr/IM-robot/src/serial/src/impl/list_ports/list_ports_linux.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROS_BUILD_SHARED_LIBS=1 -I../serial/include  -g   -o serial/tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o -c /home/wpr/IM-robot/src/serial/tests/unix_serial_tests.cc",
+  "file": "/home/wpr/IM-robot/src/serial/tests/unix_serial_tests.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROS_BUILD_SHARED_LIBS=1 -I../serial/include  -g   -o serial/tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o -c /home/wpr/IM-robot/src/serial/tests/unit/unix_timer_tests.cc",
+  "file": "/home/wpr/IM-robot/src/serial/tests/unit/unix_timer_tests.cc"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_line_follower\\\" -Idevel/include -I../riki_line_follower/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -g -O0 --coverage -g   -std=c++11 -o riki_line_follower/CMakeFiles/test_velocity.dir/test/test_navig.cpp.o -c /home/wpr/IM-robot/src/riki_line_follower/test/test_navig.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_line_follower/test/test_navig.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_line_follower\\\" -Idevel/include -I../riki_line_follower/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -g -O0 --coverage -g   -std=c++11 -o riki_line_follower/CMakeFiles/test_velocity.dir/src/rikirobot.cpp.o -c /home/wpr/IM-robot/src/riki_line_follower/src/rikirobot.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_line_follower/src/rikirobot.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_line_follower\\\" -Idevel/include -I../riki_line_follower/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -g -O0 --coverage -g   -std=c++11 -o riki_line_follower/CMakeFiles/test_detection.dir/test/test_detect.cpp.o -c /home/wpr/IM-robot/src/riki_line_follower/test/test_detect.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_line_follower/test/test_detect.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_line_follower\\\" -Idevel/include -I../riki_line_follower/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -g -O0 --coverage -g   -std=c++11 -o riki_line_follower/CMakeFiles/test_detection.dir/src/linedetect.cpp.o -c /home/wpr/IM-robot/src/riki_line_follower/src/linedetect.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_line_follower/src/linedetect.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_line_follower\\\" -Idevel/include -I../riki_line_follower/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -g -O0 --coverage -g   -std=c++11 -o riki_line_follower/CMakeFiles/navig.dir/src/motion_node.cpp.o -c /home/wpr/IM-robot/src/riki_line_follower/src/motion_node.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_line_follower/src/motion_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_line_follower\\\" -Idevel/include -I../riki_line_follower/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -g -O0 --coverage -g   -std=c++11 -o riki_line_follower/CMakeFiles/navig.dir/src/rikirobot.cpp.o -c /home/wpr/IM-robot/src/riki_line_follower/src/rikirobot.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_line_follower/src/rikirobot.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_line_follower\\\" -Idevel/include -I../riki_line_follower/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -g -O0 --coverage -g   -std=c++11 -o riki_line_follower/CMakeFiles/detect.dir/src/detect.cpp.o -c /home/wpr/IM-robot/src/riki_line_follower/src/detect.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_line_follower/src/detect.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_line_follower\\\" -Idevel/include -I../riki_line_follower/include -I/opt/ros/kinetic/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp   -g -O0 --coverage -g   -std=c++11 -o riki_line_follower/CMakeFiles/detect.dir/src/linedetect.cpp.o -c /home/wpr/IM-robot/src/riki_line_follower/src/linedetect.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_line_follower/src/linedetect.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_pid\\\" -Idevel/include -I../riki_pid/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o riki_pid/CMakeFiles/pid_configure.dir/src/riki_pid_core.cpp.o -c /home/wpr/IM-robot/src/riki_pid/src/riki_pid_core.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_pid/src/riki_pid_core.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_pid\\\" -Idevel/include -I../riki_pid/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o riki_pid/CMakeFiles/pid_configure.dir/src/pid_configure.cpp.o -c /home/wpr/IM-robot/src/riki_pid/src/pid_configure.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_pid/src/pid_configure.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_pid\\\" -Idevel/include -I../riki_pid/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o riki_pid/CMakeFiles/pid_listen.dir/src/riki_pid_core.cpp.o -c /home/wpr/IM-robot/src/riki_pid/src/riki_pid_core.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_pid/src/riki_pid_core.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"riki_pid\\\" -Idevel/include -I../riki_pid/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o riki_pid/CMakeFiles/pid_listen.dir/src/pid_listen.cpp.o -c /home/wpr/IM-robot/src/riki_pid/src/pid_listen.cpp",
+  "file": "/home/wpr/IM-robot/src/riki_pid/src/pid_listen.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosserial_server\\\" -I../rosserial/rosserial_server/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rosserial/rosserial_server/CMakeFiles/rosserial_server_udp_socket_node.dir/src/udp_socket_node.cpp.o -c /home/wpr/IM-robot/src/rosserial/rosserial_server/src/udp_socket_node.cpp",
+  "file": "/home/wpr/IM-robot/src/rosserial/rosserial_server/src/udp_socket_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosserial_server\\\" -I../rosserial/rosserial_server/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rosserial/rosserial_server/CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o -c /home/wpr/IM-robot/src/rosserial/rosserial_server/src/serial_node.cpp",
+  "file": "/home/wpr/IM-robot/src/rosserial/rosserial_server/src/serial_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosserial_server\\\" -I../rosserial/rosserial_server/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/src/socket_node.cpp.o -c /home/wpr/IM-robot/src/rosserial/rosserial_server/src/socket_node.cpp",
+  "file": "/home/wpr/IM-robot/src/rosserial/rosserial_server/src/socket_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_calib\\\" -Daccel_calib_EXPORTS -I../imu_calib/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o imu_calib/CMakeFiles/accel_calib.dir/src/accel_calib/accel_calib.cpp.o -c /home/wpr/IM-robot/src/imu_calib/src/accel_calib/accel_calib.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_calib/src/accel_calib/accel_calib.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_calib\\\" -I../imu_calib/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o imu_calib/CMakeFiles/do_calib.dir/src/do_calib_node.cpp.o -c /home/wpr/IM-robot/src/imu_calib/src/do_calib_node.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_calib/src/do_calib_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_calib\\\" -I../imu_calib/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o imu_calib/CMakeFiles/do_calib.dir/src/do_calib.cpp.o -c /home/wpr/IM-robot/src/imu_calib/src/do_calib.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_calib/src/do_calib.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_calib\\\" -I../imu_calib/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o imu_calib/CMakeFiles/apply_calib.dir/src/apply_calib_node.cpp.o -c /home/wpr/IM-robot/src/imu_calib/src/apply_calib_node.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_calib/src/apply_calib_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_calib\\\" -I../imu_calib/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o imu_calib/CMakeFiles/apply_calib.dir/src/apply_calib.cpp.o -c /home/wpr/IM-robot/src/imu_calib/src/apply_calib.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_calib/src/apply_calib.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I../rplidar_ros/./sdk/include -I../rplidar_ros/./sdk/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rplidar_ros/CMakeFiles/rplidarNode.dir/src/node.cpp.o -c /home/wpr/IM-robot/src/rplidar_ros/src/node.cpp",
+  "file": "/home/wpr/IM-robot/src/rplidar_ros/src/node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I../rplidar_ros/./sdk/include -I../rplidar_ros/./sdk/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/wpr/IM-robot/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp",
+  "file": "/home/wpr/IM-robot/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I../rplidar_ros/./sdk/include -I../rplidar_ros/./sdk/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o -c /home/wpr/IM-robot/src/rplidar_ros/sdk/src/arch/linux/timer.cpp",
+  "file": "/home/wpr/IM-robot/src/rplidar_ros/sdk/src/arch/linux/timer.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I../rplidar_ros/./sdk/include -I../rplidar_ros/./sdk/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/wpr/IM-robot/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp",
+  "file": "/home/wpr/IM-robot/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I../rplidar_ros/./sdk/include -I../rplidar_ros/./sdk/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o -c /home/wpr/IM-robot/src/rplidar_ros/sdk/src/hal/thread.cpp",
+  "file": "/home/wpr/IM-robot/src/rplidar_ros/sdk/src/hal/thread.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I../rplidar_ros/./sdk/include -I../rplidar_ros/./sdk/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rplidar_ros/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o -c /home/wpr/IM-robot/src/rplidar_ros/sdk/src/rplidar_driver.cpp",
+  "file": "/home/wpr/IM-robot/src/rplidar_ros/sdk/src/rplidar_driver.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I../rplidar_ros/./sdk/include -I../rplidar_ros/./sdk/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/wpr/IM-robot/src/rplidar_ros/src/client.cpp",
+  "file": "/home/wpr/IM-robot/src/rplidar_ros/src/client.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_complementary_filter\\\" -Dcomplementary_filter_EXPORTS -I../imu_tools/imu_complementary_filter/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o imu_tools/imu_complementary_filter/CMakeFiles/complementary_filter.dir/src/complementary_filter.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_complementary_filter/src/complementary_filter.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_complementary_filter/src/complementary_filter.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_complementary_filter\\\" -Dcomplementary_filter_EXPORTS -I../imu_tools/imu_complementary_filter/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o imu_tools/imu_complementary_filter/CMakeFiles/complementary_filter.dir/src/complementary_filter_ros.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_complementary_filter/src/complementary_filter_ros.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_complementary_filter/src/complementary_filter_ros.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_complementary_filter\\\" -I../imu_tools/imu_complementary_filter/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o imu_tools/imu_complementary_filter/CMakeFiles/complementary_filter_node.dir/src/complementary_filter_node.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_complementary_filter/src/complementary_filter_node.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_complementary_filter/src/complementary_filter_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mbot_bringup\\\" -I../mbot_bringup/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot_bringup.cpp.o -c /home/wpr/IM-robot/src/mbot_bringup/src/mbot_bringup.cpp",
+  "file": "/home/wpr/IM-robot/src/mbot_bringup/src/mbot_bringup.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mbot_bringup\\\" -I../mbot_bringup/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o mbot_bringup/CMakeFiles/mbot_bringup.dir/src/mbot.cpp.o -c /home/wpr/IM-robot/src/mbot_bringup/src/mbot.cpp",
+  "file": "/home/wpr/IM-robot/src/mbot_bringup/src/mbot.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rosserial_test\\\" -I../rosserial/rosserial_test/include -Irosserial/rosserial_test/include -Idevel/include -I../rosserial/rosserial_server/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o rosserial/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o -c /home/wpr/IM-robot/src/rosserial/rosserial_test/src/publish_subscribe.cpp",
+  "file": "/home/wpr/IM-robot/src/rosserial/rosserial_test/src/publish_subscribe.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_filter_madgwick\\\" -Dimu_filter_EXPORTS -Idevel/include -I../imu_tools/imu_filter_madgwick/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o imu_tools/imu_filter_madgwick/CMakeFiles/imu_filter.dir/src/imu_filter.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/imu_filter.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/imu_filter.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_filter_madgwick\\\" -Dimu_filter_EXPORTS -Idevel/include -I../imu_tools/imu_filter_madgwick/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o imu_tools/imu_filter_madgwick/CMakeFiles/imu_filter.dir/src/imu_filter_ros.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/imu_filter_ros.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/imu_filter_ros.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_filter_madgwick\\\" -Dimu_filter_EXPORTS -Idevel/include -I../imu_tools/imu_filter_madgwick/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o imu_tools/imu_filter_madgwick/CMakeFiles/imu_filter.dir/src/stateless_orientation.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/stateless_orientation.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/stateless_orientation.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_filter_madgwick\\\" -Dimu_filter_nodelet_EXPORTS -Idevel/include -I../imu_tools/imu_filter_madgwick/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o imu_tools/imu_filter_madgwick/CMakeFiles/imu_filter_nodelet.dir/src/imu_filter_nodelet.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/imu_filter_nodelet.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/imu_filter_nodelet.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_filter_madgwick\\\" -Idevel/include -I../imu_tools/imu_filter_madgwick/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o imu_tools/imu_filter_madgwick/CMakeFiles/imu_filter_node.dir/src/imu_filter_node.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/src/imu_filter_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_filter_madgwick\\\" -Idevel/include -I../imu_tools/imu_filter_madgwick/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o imu_tools/imu_filter_madgwick/CMakeFiles/imu_filter_madgwick-madgwick_test.dir/test/stateless_orientation_test.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/test/stateless_orientation_test.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/test/stateless_orientation_test.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"imu_filter_madgwick\\\" -Idevel/include -I../imu_tools/imu_filter_madgwick/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o imu_tools/imu_filter_madgwick/CMakeFiles/imu_filter_madgwick-madgwick_test.dir/test/madgwick_test.cpp.o -c /home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/test/madgwick_test.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/imu_filter_madgwick/test/madgwick_test.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ros_robot_localization_listener.dir/test/test_ros_robot_localization_listener.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ros_robot_localization_listener.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ros_robot_localization_listener.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Drobot_localization_estimator_EXPORTS -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o robot_localization-kinetic-devel/CMakeFiles/robot_localization_estimator.dir/src/robot_localization_estimator.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/robot_localization_estimator.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/robot_localization_estimator.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Dros_robot_localization_listener_EXPORTS -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o robot_localization-kinetic-devel/CMakeFiles/ros_robot_localization_listener.dir/src/ros_robot_localization_listener.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ros_robot_localization_listener.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ros_robot_localization_listener.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Dfilter_utilities_EXPORTS -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o robot_localization-kinetic-devel/CMakeFiles/filter_utilities.dir/src/filter_utilities.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/filter_utilities.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/filter_utilities.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Dnavsat_transform_EXPORTS -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o robot_localization-kinetic-devel/CMakeFiles/navsat_transform.dir/src/navsat_transform.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/navsat_transform.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/navsat_transform.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Dekf_EXPORTS -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o robot_localization-kinetic-devel/CMakeFiles/ekf.dir/src/ekf.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ekf.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ekf.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/ekf_localization_node.dir/src/ekf_localization_node.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ekf_localization_node.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ekf_localization_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_robot_localization_estimator.dir/test/test_robot_localization_estimator.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_robot_localization_estimator.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_robot_localization_estimator.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/ukf_localization_node.dir/src/ukf_localization_node.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ukf_localization_node.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ukf_localization_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Dros_filter_utilities_EXPORTS -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o robot_localization-kinetic-devel/CMakeFiles/ros_filter_utilities.dir/src/ros_filter_utilities.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ros_filter_utilities.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ros_filter_utilities.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Dfilter_base_EXPORTS -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o robot_localization-kinetic-devel/CMakeFiles/filter_base.dir/src/filter_base.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/filter_base.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/filter_base.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ros_robot_localization_listener_publisher.dir/test/test_ros_robot_localization_listener_publisher.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ros_robot_localization_listener_publisher.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ros_robot_localization_listener_publisher.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Dros_filter_EXPORTS -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o robot_localization-kinetic-devel/CMakeFiles/ros_filter.dir/src/ros_filter.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ros_filter.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ros_filter.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ukf_localization_node_bag1.dir/test/test_localization_node_bag_pose_tester.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/filter_base-test.dir/test/test_filter_base.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_filter_base.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_filter_base.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Dukf_EXPORTS -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g -fPIC   -o robot_localization-kinetic-devel/CMakeFiles/ukf.dir/src/ukf.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ukf.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/ukf.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ukf_localization_node_bag3.dir/test/test_localization_node_bag_pose_tester.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ekf.dir/test/test_ekf.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ekf.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ekf.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/robot_localization_listener_node.dir/src/robot_localization_listener_node.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/robot_localization_listener_node.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/robot_localization_listener_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ukf.dir/test/test_ukf.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ukf.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ukf.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_filter_base_diagnostics_timestamps.dir/test/test_filter_base_diagnostics_timestamps.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_filter_base_diagnostics_timestamps.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_filter_base_diagnostics_timestamps.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ekf_localization_node_bag2.dir/test/test_localization_node_bag_pose_tester.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/navsat_transform_node.dir/src/navsat_transform_node.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/navsat_transform_node.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/src/navsat_transform_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ekf_localization_node_interfaces.dir/test/test_ekf_localization_node_interfaces.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ekf_localization_node_interfaces.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ekf_localization_node_interfaces.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ekf_localization_node_bag1.dir/test/test_localization_node_bag_pose_tester.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ekf_localization_node_bag3.dir/test/test_localization_node_bag_pose_tester.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ukf_localization_node_interfaces.dir/test/test_ukf_localization_node_interfaces.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ukf_localization_node_interfaces.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_ukf_localization_node_interfaces.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DEIGEN_MPL2_ONLY -DEIGEN_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_localization\\\" -Idevel/include -I../robot_localization-kinetic-devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -g   -o robot_localization-kinetic-devel/CMakeFiles/test_ukf_localization_node_bag2.dir/test/test_localization_node_bag_pose_tester.cpp.o -c /home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp",
+  "file": "/home/wpr/IM-robot/src/robot_localization-kinetic-devel/test/test_localization_node_bag_pose_tester.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"thurobot\\\" -Dthu_base_EXPORTS -I../thurobot/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o thurobot/CMakeFiles/thu_base.dir/src/thu_base.cpp.o -c /home/wpr/IM-robot/src/thurobot/src/thu_base.cpp",
+  "file": "/home/wpr/IM-robot/src/thurobot/src/thu_base.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"thurobot\\\" -I../thurobot/include -Idevel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o thurobot/CMakeFiles/thu_base_node.dir/src/thu_base_node.cpp.o -c /home/wpr/IM-robot/src/thurobot/src/thu_base_node.cpp",
+  "file": "/home/wpr/IM-robot/src/thurobot/src/thu_base_node.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_imu_plugin\\\" -Drviz_imu_plugin_EXPORTS -I../imu_tools/rviz_imu_plugin/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64  -g -fPIC   -fPIC -o imu_tools/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin.dir/src/imu_display.cpp.o -c /home/wpr/IM-robot/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/rviz_imu_plugin/src/imu_display.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_imu_plugin\\\" -Drviz_imu_plugin_EXPORTS -I../imu_tools/rviz_imu_plugin/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64  -g -fPIC   -fPIC -o imu_tools/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin.dir/src/imu_orientation_visual.cpp.o -c /home/wpr/IM-robot/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/rviz_imu_plugin/src/imu_orientation_visual.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_imu_plugin\\\" -Drviz_imu_plugin_EXPORTS -I../imu_tools/rviz_imu_plugin/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64  -g -fPIC   -fPIC -o imu_tools/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin.dir/src/imu_axes_visual.cpp.o -c /home/wpr/IM-robot/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/rviz_imu_plugin/src/imu_axes_visual.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_imu_plugin\\\" -Drviz_imu_plugin_EXPORTS -I../imu_tools/rviz_imu_plugin/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64  -g -fPIC   -fPIC -o imu_tools/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin.dir/src/imu_acc_visual.cpp.o -c /home/wpr/IM-robot/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp",
+  "file": "/home/wpr/IM-robot/src/imu_tools/rviz_imu_plugin/src/imu_acc_visual.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rviz_imu_plugin\\\" -Drviz_imu_plugin_EXPORTS -I../imu_tools/rviz_imu_plugin/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64  -g -fPIC   -fPIC -o imu_tools/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin.dir/rviz_imu_plugin_automoc.cpp.o -c /home/wpr/IM-robot/src/build/imu_tools/rviz_imu_plugin/rviz_imu_plugin_automoc.cpp",
+  "file": "/home/wpr/IM-robot/src/build/imu_tools/rviz_imu_plugin/rviz_imu_plugin_automoc.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"frontier_exploration\\\" -Idevel/include -I../frontier_exploration/include -I/home/wpr/catkin_gpd/devel/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_ros/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_conversions/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/include/jsoncpp -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu/freetype2 -I/usr/include/python2.7 -I/usr/include/hdf5/openmpi -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/tcl -I/usr/include/openni2 -I../frontier_exploration/src/test  -g   -o frontier_exploration/CMakeFiles/explore_client.dir/src/explore_client.cpp.o -c /home/wpr/IM-robot/src/frontier_exploration/src/explore_client.cpp",
+  "file": "/home/wpr/IM-robot/src/frontier_exploration/src/explore_client.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"frontier_exploration\\\" -Idevel/include -I../frontier_exploration/include -I/home/wpr/catkin_gpd/devel/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_ros/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_conversions/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/include/jsoncpp -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu/freetype2 -I/usr/include/python2.7 -I/usr/include/hdf5/openmpi -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/tcl -I/usr/include/openni2 -I../frontier_exploration/src/test  -g   -o frontier_exploration/CMakeFiles/explore_server.dir/src/explore_server.cpp.o -c /home/wpr/IM-robot/src/frontier_exploration/src/explore_server.cpp",
+  "file": "/home/wpr/IM-robot/src/frontier_exploration/src/explore_server.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"frontier_exploration\\\" -Idevel/include -I../frontier_exploration/include -I/home/wpr/catkin_gpd/devel/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_ros/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_conversions/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/include/jsoncpp -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu/freetype2 -I/usr/include/python2.7 -I/usr/include/hdf5/openmpi -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/tcl -I/usr/include/openni2 -I../frontier_exploration/src/test  -g   -o frontier_exploration/CMakeFiles/costmap_tools_tests.dir/src/test/costmap_tools_tests.cpp.o -c /home/wpr/IM-robot/src/frontier_exploration/src/test/costmap_tools_tests.cpp",
+  "file": "/home/wpr/IM-robot/src/frontier_exploration/src/test/costmap_tools_tests.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"frontier_exploration\\\" -Idevel/include -I../frontier_exploration/include -I/home/wpr/catkin_gpd/devel/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_ros/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_conversions/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/include/jsoncpp -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu/freetype2 -I/usr/include/python2.7 -I/usr/include/hdf5/openmpi -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/tcl -I/usr/include/openni2 -I../frontier_exploration/src/test  -g   -o frontier_exploration/CMakeFiles/geometry_tools_tests.dir/src/test/geometry_tools_tests.cpp.o -c /home/wpr/IM-robot/src/frontier_exploration/src/test/geometry_tools_tests.cpp",
+  "file": "/home/wpr/IM-robot/src/frontier_exploration/src/test/geometry_tools_tests.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"frontier_exploration\\\" -Dexplore_costmap_EXPORTS -Idevel/include -I../frontier_exploration/include -I/home/wpr/catkin_gpd/devel/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_ros/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_conversions/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/include/jsoncpp -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu/freetype2 -I/usr/include/python2.7 -I/usr/include/hdf5/openmpi -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/tcl -I/usr/include/openni2 -I../frontier_exploration/src/test  -g -fPIC   -o frontier_exploration/CMakeFiles/explore_costmap.dir/plugins/bounded_explore_layer.cpp.o -c /home/wpr/IM-robot/src/frontier_exploration/plugins/bounded_explore_layer.cpp",
+  "file": "/home/wpr/IM-robot/src/frontier_exploration/plugins/bounded_explore_layer.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"frontier_exploration\\\" -Dexplore_costmap_EXPORTS -Idevel/include -I../frontier_exploration/include -I/home/wpr/catkin_gpd/devel/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_ros/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_conversions/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/include/jsoncpp -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu/freetype2 -I/usr/include/python2.7 -I/usr/include/hdf5/openmpi -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/tcl -I/usr/include/openni2 -I../frontier_exploration/src/test  -g -fPIC   -o frontier_exploration/CMakeFiles/explore_costmap.dir/src/frontier_search.cpp.o -c /home/wpr/IM-robot/src/frontier_exploration/src/frontier_search.cpp",
+  "file": "/home/wpr/IM-robot/src/frontier_exploration/src/frontier_search.cpp"
+},
+
+{
+  "directory": "/home/wpr/IM-robot/src/build",
+  "command": "/usr/bin/g++-5   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"frontier_exploration\\\" -Idevel/include -I../frontier_exploration/include -I/home/wpr/catkin_gpd/devel/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_ros/include -I/home/wpr/catkin_gpd/src/perception_pcl/pcl_conversions/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/pcl-1.7 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/include/jsoncpp -I/usr/include/libxml2 -I/usr/include/x86_64-linux-gnu -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu/freetype2 -I/usr/include/python2.7 -I/usr/include/hdf5/openmpi -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/tcl -I/usr/include/openni2 -I../frontier_exploration/src/test  -g   -o frontier_exploration/CMakeFiles/frontier_search_tests.dir/src/test/frontier_search_tests.cpp.o -c /home/wpr/IM-robot/src/frontier_exploration/src/test/frontier_search_tests.cpp",
+  "file": "/home/wpr/IM-robot/src/frontier_exploration/src/test/frontier_search_tests.cpp"
+}
+]

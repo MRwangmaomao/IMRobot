@@ -1,0 +1,8 @@
+prefix=/home/wpr/IM-robot/src/build/devel
+
+Name: mbot_bringup
+Description: Description of mbot_bringup
+Version: 0.0.0
+Cflags: -I/home/wpr/IM-robot/src/mbot_bringup/include
+Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
+Requires: 

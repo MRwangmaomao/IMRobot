@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: arbotix_firmware
+Description: Description of arbotix_firmware
+Version: 0.10.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

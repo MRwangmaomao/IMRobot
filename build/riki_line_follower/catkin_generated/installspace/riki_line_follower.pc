@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: riki_line_follower
+Description: Description of riki_line_follower
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: 

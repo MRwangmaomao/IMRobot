@@ -1,3 +1,0 @@
-<launch>
-  <include file="$(find thurobot)/launch/lidar/$(env RIKILIDAR).launch" />
-</launch>
