@@ -51,7 +51,7 @@ TEST(LocalizationListenerTest, testGetStateOfBaseLink)
   Eigen::VectorXd state(RobotLocalization::STATE_SIZE);
   Eigen::MatrixXd covariance(RobotLocalization::STATE_SIZE, RobotLocalization::STATE_SIZE);
 
-  std::string base_frame("base_link");
+  std::string base_frame("base_footprint");
   g_listener->getState(time2, base_frame, state, covariance);
 
   EXPECT_DOUBLE_EQ(1.0, state(RobotLocalization::StateMemberX));

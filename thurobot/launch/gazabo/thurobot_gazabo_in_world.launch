@@ -17,7 +17,7 @@
     </include>
 
     <!-- 加载机器人模型描述参数 -->
-    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find thurobot)/urdf/xacro/gazebo/thurobot_gazebo.xacro'" /> 
+    <param name="robot_description" command="'$(find thurobot)/xacro/gazebo/thurobot_gazebo.xacro'" /> 
 
     <!-- 运行joint_state_publisher节点，发布机器人的关节状态  -->
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node> 
@@ -29,6 +29,6 @@
 
     <!-- 在gazebo中加载机器人模型-->
     <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-          args="-urdf -model mrobot -param robot_description"/> 
+          args="-urdf -model mrobot -param '$(find thurobot)/xacro/gazebo/thurobot_gazebo.xacro'"/> 
 
 </launch>

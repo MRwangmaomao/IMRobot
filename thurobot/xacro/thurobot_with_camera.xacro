@@ -13,7 +13,7 @@
     <!-- Camera -->
     <joint name="camera_joint" type="fixed">
         <origin xyz="${camera_offset_x} ${camera_offset_y} ${camera_offset_z}" rpy="0 0 0" />
-        <parent link="base_link"/>
+        <parent link="base_footprint"/>
         <child link="camera_link"/>
     </joint>
 

@@ -57,8 +57,8 @@ class CalibrateLinear():
         # Connect to the dynamic_reconfigure server
         dyn_client = dynamic_reconfigure.client.Client("calibrate_linear", timeout=60)
  
-        # The base frame is base_footprint for the TurtleBot but base_link for Pi Robot
-        self.base_frame = rospy.get_param('~base_frame', '/base_link')
+        # The base frame is base_footprint for the TurtleBot but base_footprint for Pi Robot
+        self.base_frame = rospy.get_param('~base_frame', '/base_footprint')
 
         # The odom frame is usually just /odom
         self.odom_frame = rospy.get_param('~odom_frame', '/odom')

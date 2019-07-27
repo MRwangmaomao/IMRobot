@@ -29,7 +29,7 @@
     <xacro:macro name="wheel" params="prefix reflect">
         <joint name="${prefix}_wheel_joint" type="continuous">
             <origin xyz="0 ${reflect*wheel_joint_y} ${-wheel_joint_z}" rpy="0 0 0"/>
-            <parent link="base_link"/>
+            <parent link="base_footprint"/>
             <child link="${prefix}_wheel_link"/>
             <axis xyz="0 1 0"/>
         </joint>
@@ -49,7 +49,7 @@
     <xacro:macro name="caster" params="prefix reflect">
         <joint name="${prefix}_caster_joint" type="continuous">
             <origin xyz="${reflect*caster_joint_x} 0 ${-(base_length/2 + caster_radius)}" rpy="0 0 0"/>
-            <parent link="base_link"/>
+            <parent link="base_footprint"/>
             <child link="${prefix}_caster_link"/>
             <axis xyz="0 1 0"/>
         </joint>
@@ -78,10 +78,10 @@
         <joint name="base_footprint_joint" type="fixed">
             <origin xyz="0 0 ${base_length/2 + caster_radius*2}" rpy="0 0 0" />        
             <parent link="base_footprint"/>
-            <child link="base_link" />
+            <child link="base_footprint" />
         </joint>
 
-        <link name="base_link">
+        <link name="base_footprint">
             <visual>
                 <origin xyz=" 0 0 0" rpy="0 0 0" />
                 <geometry>

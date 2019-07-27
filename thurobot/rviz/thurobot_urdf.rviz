@@ -64,7 +64,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        base_link:
+        base_footprint:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -102,7 +102,7 @@ Visualization Manager:
         All Enabled: true
         back_caster_link:
           Value: true
-        base_link:
+        base_footprint:
           Value: true
         camera_link:
           Value: true
@@ -118,7 +118,7 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        base_link:
+        base_footprint:
           back_caster_link:
             {}
           camera_link:
@@ -135,7 +135,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: base_link
+    Fixed Frame: base_footprint
     Frame Rate: 30
   Name: root
   Tools:

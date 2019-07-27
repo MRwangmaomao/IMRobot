@@ -57,7 +57,7 @@ namespace RobotLocalization
 geometry_msgs::PoseWithCovarianceStamped getValidPose()
 {
   geometry_msgs::PoseWithCovarianceStamped pose_msg;
-  pose_msg.header.frame_id = "base_link";
+  pose_msg.header.frame_id = "base_footprint";
   pose_msg.pose.pose.position.x = 1;
   pose_msg.pose.pose.orientation.w = 1;
   for (size_t i = 0; i < 6 ; i++)
@@ -70,7 +70,7 @@ geometry_msgs::PoseWithCovarianceStamped getValidPose()
 geometry_msgs::TwistWithCovarianceStamped getValidTwist()
 {
   geometry_msgs::TwistWithCovarianceStamped twist_msg;
-  twist_msg.header.frame_id = "base_link";
+  twist_msg.header.frame_id = "base_footprint";
   for (size_t i = 0; i < 6 ; i++)
   {
     twist_msg.twist.covariance[i*6 + i] = 1;
@@ -82,7 +82,7 @@ geometry_msgs::TwistWithCovarianceStamped getValidTwist()
 sensor_msgs::Imu getValidImu()
 {
   sensor_msgs::Imu imu_msg;
-  imu_msg.header.frame_id = "base_link";
+  imu_msg.header.frame_id = "base_footprint";
   imu_msg.orientation.w = 1;
   for (size_t i = 0; i < 3 ; i++)
   {
@@ -97,7 +97,7 @@ nav_msgs::Odometry getValidOdometry()
 {
   nav_msgs::Odometry odom_msg;
   odom_msg.header.frame_id = "odom";
-  odom_msg.child_frame_id = "base_link";
+  odom_msg.child_frame_id = "base_footprint";
   odom_msg.pose = getValidPose().pose;
   odom_msg.twist = getValidTwist().twist;
   return odom_msg;

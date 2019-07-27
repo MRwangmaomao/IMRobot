@@ -1,4 +1,4 @@
 <launch> 
-	<param name="robot_description" textfile="$(find thurobot)/urdf/rikirobot.urdf" /> 
+	<param name="robot_description" textfile="$(find thurobot)/urdf/thurobot.urdf" /> 
 	<node name="rviz" pkg="rviz" type="rviz"/>
 </launch>

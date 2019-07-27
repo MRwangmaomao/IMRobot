@@ -11,7 +11,7 @@
     <!-- kinect -->
     <joint name="kinect_joint" type="fixed">
         <origin xyz="${kinect_offset_x} ${kinect_offset_y} ${kinect_offset_z}" rpy="0 0 0" />
-        <parent link="base_link"/>
+        <parent link="base_footprint"/>
         <child link="kinect_link"/>
     </joint>
 

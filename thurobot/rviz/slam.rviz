@@ -57,7 +57,7 @@ Visualization Manager:
         All Enabled: false
         base_footprint:
           Value: true
-        base_link:
+        base_footprint:
           Value: true
         imu_link:
           Value: true
@@ -76,7 +76,7 @@ Visualization Manager:
         map:
           odom:
             base_footprint:
-              base_link:
+              base_footprint:
                 laser:
                   {}
               imu_link:
@@ -132,7 +132,7 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        base_link:
+        base_footprint:
           Alpha: 1
           Show Axes: false
           Show Trail: false

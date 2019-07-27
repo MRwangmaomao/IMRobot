@@ -3,7 +3,7 @@
   <name>thurobot</name>
   <version>1.0.0</version>
   <description>Two wheel differential drive ROS platform</description>
-  <maintainer email="3332416855@qq.com">t</maintainer>
+  <maintainer email="3332416855@qq.com">ermao</maintainer>
   <license>BSD</license>
 
    <author email="3332416855@qq.com">kevin</author>

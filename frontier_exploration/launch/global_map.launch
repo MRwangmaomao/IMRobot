@@ -21,7 +21,7 @@
 
             #must match incoming static map
             global_frame: map
-            robot_base_frame: base_link
+            robot_base_frame: base_footprint
             resolution: 0.05
 
             rolling_window: false

@@ -42,3 +42,42 @@ In "Motion Planning" -> "Plan and Execute" to send trajectory to the sim robot
 
 Exit RViz and Ctrl-C the demo.launch window
 
+
+# bringup.launch
+```
+roslaunch thurobot bringup.launch
+```
+
+## arduino_serial_node  
+
+src/rosserial/rosserial_arduino/nodes/serial_node.py
+
+1. 设置串口属性，波特率
+2. 进入循环，执行SerialClient任务，接收并转发单片机发送的数据
+
+## apply_calib
+
+src/imu_calib/src/accl_calib/apply_calib_node.cpp 
+                           --apply_calib.cpp
+
+
+# remote move by keyboard
+```
+roslaunch teleop_twist_keyboard thurobot_teleop.py
+```
+
+# remote establish map
+```
+roslaunch thurobot lidar_slam.launch
+```
+
+# navigation by map
+```
+roslaunch thurobot navigate_multi.launch
+```
+
+# automatic map
+```
+roslaunch thurobot auto_slam.launch
+```
+

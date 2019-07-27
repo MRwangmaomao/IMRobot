@@ -136,7 +136,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        base_link:
+        base_footprint:
           Alpha: 1
           Show Axes: false
           Show Trail: false

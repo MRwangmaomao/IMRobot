@@ -47,16 +47,16 @@ class OutAndBack():
         # Set the odom frame
         self.odom_frame = '/odom'
         
-        # Find out if the robot uses /base_link or /base_footprint
+        # Find out if the robot uses /base_footprint or /base_footprint
         try:
             self.tf_listener.waitForTransform(self.odom_frame, '/base_footprint', rospy.Time(), rospy.Duration(1.0))
             self.base_frame = '/base_footprint'
         except (tf.Exception, tf.ConnectivityException, tf.LookupException):
             try:
-                self.tf_listener.waitForTransform(self.odom_frame, '/base_link', rospy.Time(), rospy.Duration(1.0))
-                self.base_frame = '/base_link'
+                self.tf_listener.waitForTransform(self.odom_frame, '/base_footprint', rospy.Time(), rospy.Duration(1.0))
+                self.base_frame = '/base_footprint'
             except (tf.Exception, tf.ConnectivityException, tf.LookupException):
-                rospy.loginfo("Cannot find transform between /odom and /base_link or /base_footprint")
+                rospy.loginfo("Cannot find transform between /odom and /base_footprint or /base_footprint")
                 rospy.signal_shutdown("tf Exception")  
         
         # Initialize the position variable as a Point type

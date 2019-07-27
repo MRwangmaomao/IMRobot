@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot name="smartcar">
-  <link name="base_link">
+  <link name="base_footprint">
     <visual>
       <geometry>
         <box size="0.25 .16 .05"/>
@@ -25,7 +25,7 @@
 
   <joint name="right_front_wheel_joint" type="continuous">
     <axis xyz="0 0 1"/>
-    <parent link="base_link"/>
+    <parent link="base_footprint"/>
     <child link="right_front_wheel"/>
     <origin rpy="0 1.57075 0" xyz="0.08 0.1 -0.03"/>
     <limit effort="100" velocity="100"/>
@@ -45,7 +45,7 @@
 
   <joint name="right_back_wheel_joint" type="continuous">
     <axis xyz="0 0 1"/>
-    <parent link="base_link"/>
+    <parent link="base_footprint"/>
     <child link="right_back_wheel"/>
     <origin rpy="0 1.57075 0" xyz="0.08 -0.1 -0.03"/>
     <limit effort="100" velocity="100"/>
@@ -65,7 +65,7 @@
 
   <joint name="left_front_wheel_joint" type="continuous">
     <axis xyz="0 0 1"/>
-    <parent link="base_link"/>
+    <parent link="base_footprint"/>
     <child link="left_front_wheel"/>
     <origin rpy="0 1.57075 0" xyz="-0.08 0.1 -0.03"/>
     <limit effort="100" velocity="100"/>
@@ -85,7 +85,7 @@
 
   <joint name="left_back_wheel_joint" type="continuous">
     <axis xyz="0 0 1"/>
-    <parent link="base_link"/>
+    <parent link="base_footprint"/>
     <child link="left_back_wheel"/>
     <origin rpy="0 1.57075 0" xyz="-0.08 -0.1 -0.03"/>
     <limit effort="100" velocity="100"/>
@@ -104,7 +104,7 @@
   </link>
 
   <joint name="tobox" type="fixed">
-    <parent link="base_link"/>
+    <parent link="base_footprint"/>
     <child link="head"/>
     <origin xyz="0 0.08 0.025"/>
   </joint>

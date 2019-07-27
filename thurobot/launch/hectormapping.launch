@@ -7,8 +7,8 @@ E-mail: kint.zhao@slamtec.com
 <launch>
     <node pkg="hector_mapping" type="hector_mapping" name="hector_height_mapping" output="screen">
       <param name="scan_topic" value="scan" />
-    <param name="base_frame" value="base_link" />
-    <param name="odom_frame" value="base_link" />
+    <param name="base_frame" value="base_footprint" />
+    <param name="odom_frame" value="base_footprint" />
 
     <param name="output_timing" value="false"/>
     <param name="advertise_map_service" value="true"/>

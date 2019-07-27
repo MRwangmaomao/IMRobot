@@ -25,6 +25,7 @@ RikiBase::RikiBase():
         ros::NodeHandle pn3("~/sub"); //pn3 命名空间为/node_namespace/node_name/sub
         ros::NodeHandle gn("/global"); // gn 命名空间为/global 
      */
+    
     ros::NodeHandle nh_private("~"); //~代表访问私有名称
     odom_publisher_ = nh_.advertise<nav_msgs::Odometry>("raw_odom", 50);
     velocity_subscriber_ = nh_.subscribe("raw_vel", 50, &RikiBase::velCallback, this);

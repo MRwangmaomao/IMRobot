@@ -62,7 +62,7 @@ namespace RobotLocalization
     use_manual_datum_(false),
     zero_altitude_(false),
     world_frame_id_("odom"),
-    base_link_frame_id_("base_link"),
+    base_link_frame_id_("base_footprint"),
     utm_zone_(""),
     tf_listener_(tf_buffer_)
   {

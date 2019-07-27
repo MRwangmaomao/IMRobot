@@ -110,7 +110,7 @@ TEST(InterfacesTest, OdomPoseBasicIO)
   odom.pose.covariance[14] = 2.0;
 
   odom.header.frame_id = "odom";
-  odom.child_frame_id = "base_link";
+  odom.child_frame_id = "basebase_footprint_link";
 
   ros::Rate loopRate(50);
   for (size_t i = 0; i < 50; ++i)
@@ -156,7 +156,7 @@ TEST(InterfacesTest, OdomTwistBasicIO)
   }
 
   odom.header.frame_id = "odom";
-  odom.child_frame_id = "base_link";
+  odom.child_frame_id = "base_footprint";
 
   ros::Rate loopRate(20);
   for (size_t i = 0; i < 400; ++i)
@@ -366,7 +366,7 @@ TEST(InterfacesTest, TwistBasicIO)
     twist.twist.covariance[ind] = 1e-6;
   }
 
-  twist.header.frame_id = "base_link";
+  twist.header.frame_id = "base_footprint";
 
   ros::Rate loopRate = ros::Rate(20);
   for (size_t i = 0; i < 400; ++i)
@@ -527,7 +527,7 @@ TEST(InterfacesTest, ImuPoseBasicIO)
     imu.orientation_covariance[ind] = 1e-6;
   }
 
-  imu.header.frame_id = "base_link";
+  imu.header.frame_id = "base_footprint";
 
   // Make sure the pose reset worked. Test will timeout
   // if this fails.
@@ -603,7 +603,7 @@ TEST(InterfacesTest, ImuTwistBasicIO)
     imu.angular_velocity_covariance[ind] = 1e-6;
   }
 
-  imu.header.frame_id = "base_link";
+  imu.header.frame_id = "base_footprint";
 
   ros::Rate loopRate(50);
   for (size_t i = 0; i < 50; ++i)
@@ -727,7 +727,7 @@ TEST(InterfacesTest, ImuAccBasicIO)
   ros::Subscriber filteredSub = nh.subscribe("/odometry/filtered", 1, &filterCallback);
 
   sensor_msgs::Imu imu;
-  imu.header.frame_id = "base_link";
+  imu.header.frame_id = "base_footprint";
   imu.linear_acceleration_covariance[0] = 1e-6;
   imu.linear_acceleration_covariance[4] = 1e-6;
   imu.linear_acceleration_covariance[8] = 1e-6;
@@ -823,7 +823,7 @@ TEST(InterfacesTest, OdomDifferentialIO)
   odom.pose.covariance[35] = 0.2;
 
   odom.header.frame_id = "odom";
-  odom.child_frame_id = "base_link";
+  odom.child_frame_id = "base_footprint";
 
   // No guaranteeing that the zero state
   // we're expecting to see here isn't just
@@ -967,7 +967,7 @@ TEST(InterfacesTest, ImuDifferentialIO)
   ros::Subscriber filteredSub = nh.subscribe("/odometry/filtered", 1, &filterCallback);
 
   sensor_msgs::Imu imu;
-  imu.header.frame_id = "base_link";
+  imu.header.frame_id = "base_footprint";
   tf2::Quaternion quat;
   const double roll = M_PI/2.0;
   const double pitch = -M_PI;

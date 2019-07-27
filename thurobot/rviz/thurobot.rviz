@@ -69,7 +69,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        base_link:
+        base_footprint:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -104,7 +104,7 @@ Visualization Manager:
           Value: true
         base_footprint:
           Value: true
-        base_link:
+        base_footprint:
           Value: true
         front_castor_link:
           Value: true
@@ -119,7 +119,7 @@ Visualization Manager:
       Show Names: true
       Tree:
         base_footprint:
-          base_link:
+          base_footprint:
             back_castor_link:
               {}
             front_castor_link:

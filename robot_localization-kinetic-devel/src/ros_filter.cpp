@@ -704,7 +704,7 @@ namespace RobotLocalization
     // base_link) and odometry frame (typically odom)
     nhLocal_.param("map_frame", mapFrameId_, std::string("map"));
     nhLocal_.param("odom_frame", odomFrameId_, std::string("odom"));
-    nhLocal_.param("base_link_frame", baseLinkFrameId_, std::string("base_link"));
+    nhLocal_.param("base_link_frame", baseLinkFrameId_, std::string("base_footprint"));
     nhLocal_.param("base_link_frame_output", baseLinkOutputFrameId_, baseLinkFrameId_);
 
     /*

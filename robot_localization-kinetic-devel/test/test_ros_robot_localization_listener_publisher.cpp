@@ -62,7 +62,7 @@ int main(int argc, char **argv)
     nav_msgs::Odometry odom_msg;
     odom_msg.header.stamp = time1;
     odom_msg.header.frame_id = "map";
-    odom_msg.child_frame_id = "base_link";
+    odom_msg.child_frame_id = "base_footprint";
     odom_msg.pose.pose.position.x = x;
     odom_msg.pose.pose.position.y = y;
     odom_msg.pose.pose.position.y = z;
@@ -80,7 +80,7 @@ int main(int argc, char **argv)
 
     geometry_msgs::AccelWithCovarianceStamped accel_msg;
     accel_msg.header.stamp = time1;
-    accel_msg.header.frame_id = "base_link";
+    accel_msg.header.frame_id = "base_footprint";
     accel_msg.accel.accel.linear.x = ax;
     accel_msg.accel.accel.linear.y = ay;
     accel_msg.accel.accel.linear.z = az;
@@ -94,7 +94,7 @@ int main(int argc, char **argv)
     geometry_msgs::TransformStamped transformStamped;
 
     transformStamped.header.stamp = ros::Time::now();
-    transformStamped.header.frame_id = "base_link";
+    transformStamped.header.frame_id = "base_footprint";
     transformStamped.child_frame_id = "sensor";
     transformStamped.transform.translation.x = 0.0;
     transformStamped.transform.translation.y = 1.0;

@@ -60,8 +60,8 @@ class CalibrateAngular():
         # Connect to the dynamic_reconfigure server
         dyn_client = dynamic_reconfigure.client.Client("calibrate_angular", timeout=60)
         
-        # The base frame is usually base_link or base_footprint
-        self.base_frame = rospy.get_param('~base_frame', '/base_link')
+        # The base frame is usually base_footprint or base_footprint
+        self.base_frame = rospy.get_param('~base_frame', '/base_footprint')
 
         # The odom frame is usually just /odom
         self.odom_frame = rospy.get_param('~odom_frame', '/odom')

@@ -42,7 +42,7 @@
       <param name="print_diagnostics" value="false"/>
 
       <param name="odom_frame" value="odom"/>
-      <param name="base_link_frame" value="base_link"/>
+      <param name="base_link_frame" value="base_footprint"/>
 
       <rosparam param="process_noise_covariance">[0.03, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
                                                   0.0, 0.03, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,

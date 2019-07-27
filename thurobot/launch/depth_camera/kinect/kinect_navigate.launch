@@ -1,5 +1,5 @@
 <launch>
-  <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="0 0 0 0 0 0 /base_link /scan 100" />
+  <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser" args="0 0 0 0 0 0 /base_footprint /scan 100" />
   <include file="$(find rikirobot)/launch/depth_camera/kinect/3dsensor.launch"/>
   <arg name="map_file" default="$(find rikirobot)/maps/house.yaml"/>
   <node pkg="map_server" name="map_server"  type="map_server" args="$(arg map_file)" />
