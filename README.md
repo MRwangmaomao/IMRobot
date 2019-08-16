@@ -1,7 +1,8 @@
 # IM(Intelligent Manufacture) Robot
 
 This robot is combine car with arm.
-![IM-robot](开发笔记/img/IM-Robot.jpeg)
+
+![IM-robot](开发笔记/img/IM-Robot.png)
 
 ## 1 car Simulation
 
