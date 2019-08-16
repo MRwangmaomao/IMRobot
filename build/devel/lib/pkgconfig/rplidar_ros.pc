@@ -1,8 +1,0 @@
-prefix=/home/wpr/IM-robot/src/build/devel
-
-Name: rplidar_ros
-Description: Description of rplidar_ros
-Version: 1.6.0
-Cflags: 
-Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
-Requires: 

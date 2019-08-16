@@ -1,8 +1,0 @@
-prefix=/home/wpr/IM-robot/src/build/devel
-
-Name: riki_line_follower
-Description: Description of riki_line_follower
-Version: 0.0.0
-Cflags: -I/home/wpr/IM-robot/src/build/devel/include
-Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
-Requires: 

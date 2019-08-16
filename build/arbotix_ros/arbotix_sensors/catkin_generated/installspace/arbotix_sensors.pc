@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: arbotix_sensors
-Description: Description of arbotix_sensors
-Version: 0.10.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 

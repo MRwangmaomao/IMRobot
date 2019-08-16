@@ -1,8 +1,0 @@
-prefix=/home/wpr/IM-robot/src/build/devel
-
-Name: arbotix_python
-Description: Description of arbotix_python
-Version: 0.10.0
-Cflags: 
-Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
-Requires: 

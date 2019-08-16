@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: rbx1_apps
-Description: Description of rbx1_apps
-Version: 0.4.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 

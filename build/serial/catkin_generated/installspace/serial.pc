@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: serial
-Description: Description of serial
-Version: 1.2.1
-Cflags: -I/usr/local/include
-Libs: -L/usr/local/lib -lserial
-Requires: 

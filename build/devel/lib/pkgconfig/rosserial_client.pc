@@ -1,8 +1,0 @@
-prefix=/home/wpr/IM-robot/src/build/devel
-
-Name: rosserial_client
-Description: Description of rosserial_client
-Version: 0.7.7
-Cflags: 
-Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
-Requires: 

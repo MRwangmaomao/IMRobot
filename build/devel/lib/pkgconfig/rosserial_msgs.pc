@@ -1,8 +1,0 @@
-prefix=/home/wpr/IM-robot/src/build/devel
-
-Name: rosserial_msgs
-Description: Description of rosserial_msgs
-Version: 0.7.7
-Cflags: -I/home/wpr/IM-robot/src/build/devel/include
-Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
-Requires: message_runtime

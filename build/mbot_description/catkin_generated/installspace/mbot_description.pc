@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: mbot_description
-Description: Description of mbot_description
-Version: 0.0.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 

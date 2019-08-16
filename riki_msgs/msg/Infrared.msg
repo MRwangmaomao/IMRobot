@@ -1,3 +1,3 @@
-float32 front
-float32 rear
+bool front
+bool rear
 

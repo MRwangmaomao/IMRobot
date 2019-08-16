@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: mbot_navigation
-Description: Description of mbot_navigation
-Version: 0.0.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/wpr/IM-robot/src/build/devel
-
-Name: thurobot
-Description: Description of thurobot
-Version: 1.0.0
-Cflags: -I/home/wpr/IM-robot/src/thurobot/include
-Libs: -L/home/wpr/IM-robot/src/build/devel/lib -lthurobot
-Requires: roscpp rospy tf nav_msgs riki_msgs geometry_msgs sensor_msgs std_msgs

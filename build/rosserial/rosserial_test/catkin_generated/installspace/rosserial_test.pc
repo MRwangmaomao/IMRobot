@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: rosserial_test
-Description: Description of rosserial_test
-Version: 0.7.7
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: rosserial_msgs std_msgs

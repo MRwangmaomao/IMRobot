@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: rviz_imu_plugin
-Description: Description of rviz_imu_plugin
-Version: 1.0.15
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: rviz

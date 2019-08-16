@@ -1,8 +1,0 @@
-prefix=/home/wpr/IM-robot/src/build/devel
-
-Name: teleop_twist_keyboard
-Description: Description of teleop_twist_keyboard
-Version: 0.6.1
-Cflags: 
-Libs: -L/home/wpr/IM-robot/src/build/devel/lib 
-Requires: 
